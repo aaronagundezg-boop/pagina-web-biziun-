@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biziun | Consultoría Estratégica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-900 tracking-tighter">BIZIUN</div>
+            <div class="hidden md:flex space-x-8 font-medium text-gray-600">
+                <a href="#inicio" class="hover:text-blue-600 transition">Inicio</a>
+                <a href="#servicios" class="hover:text-blue-600 transition">Servicios</a>
+                <a href="#nosotros" class="hover:text-blue-600 transition">Nosotros</a>
+            </div>
+            <a href="#contacto" class="bg-blue-900 text-white px-6 py-2 rounded-full hover:bg-blue-800 transition">Contacto</a>
+        </div>
+    </nav>
+
+    <header id="inicio" class="gradient-bg pt-32 pb-24 text-white">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6">Dirección Estratégica para el Futuro</h1>
+            <p class="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">Diseñamos estrategias competitivas, innovadoras y sostenibles para llevar a tu empresa al siguiente nivel.</p>
+            <div class="flex justify-center gap-4">
+                <button class="bg-blue-500 hover:bg-blue-400 px-8 py-4 rounded-lg font-bold">Solicitar Consultoría</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="servicios" class="py-20 max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-4">Modelo de Posturas Dinámicas</h2>
+        <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Protegemos tu empresa mediante una estructura de doble capa estratégica: control interno y dominio externo.</p>
+        
+        <!-- Matriz 2x2 -->
+        <div class="grid md:grid-cols-2 gap-4 max-w-4xl mx-auto">
+            <div class="bg-blue-900 text-white p-8 rounded-xl shadow-lg">
+                <h3 class="text-xl font-bold mb-2">Estrategias Ofensivas</h3>
+                <p class="text-blue-200 text-sm">Capa Externa: Innovación, crecimiento de mercado y competitividad agresiva para el liderazgo.</p>
+            </div>
+            <div class="bg-blue-800 text-white p-8 rounded-xl shadow-lg">
+                <h3 class="text-xl font-bold mb-2">Estrategias Defensivas</h3>
+                <p class="text-blue-200 text-sm">Capa Interna: Blindaje operativo, gestión de riesgos y optimización de recursos críticos.</p>
+            </div>
+            <div class="bg-gray-800 text-white p-8 rounded-xl shadow-lg">
+                <h3 class="text-xl font-bold mb-2">Estrategias Reactivas</h3>
+                <p class="text-gray-300 text-sm">Adaptabilidad ante cambios bruscos del entorno. Resiliencia estratégica aplicada.</p>
+            </div>
+            <div class="bg-gray-900 text-white p-8 rounded-xl shadow-lg">
+                <h3 class="text-xl font-bold mb-2">Estrategias de Consolidación</h3>
+                <p class="text-gray-300 text-sm">Sostenibilidad a largo plazo. Aseguramos el núcleo del negocio mediante procesos robustos.</p>
+            </div>
+        </div>
+        
+        <div class="mt-12 p-8 bg-blue-50 border border-blue-100 rounded-2xl text-center">
+            <p class="text-blue-900 font-semibold italic">"Tu empresa blindada por dos capas de estrategia: la reacción interna que estabiliza y la ofensiva externa que expande."</p>
+        </div>
+    </section>
+
+    <section id="contacto" class="bg-gray-100 py-20">
+        <div class="max-w-3xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-8">¿Listo para transformar tu dirección estratégica?</h2>
+            <form class="bg-white p-8 rounded-2xl shadow-sm">
+                <input type="text" placeholder="Nombre completo" class="w-full mb-4 p-4 border rounded-lg">
+                <input type="email" placeholder="Correo electrónico" class="w-full mb-4 p-4 border rounded-lg">
+                <textarea placeholder="Cuéntanos sobre tu proyecto..." class="w-full mb-4 p-4 border rounded-lg h-32"></textarea>
+                <button type="button" class="w-full bg-blue-900 text-white py-4 rounded-lg font-bold">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-gray-500 border-t">
+        <p>&copy; 2026 Biziun Consultoría Estratégica. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
